@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PostViewController.h
 //  PostContentText
 //
 //  Created by QIUGUI on 2017/7/10.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PostViewController : UIViewController
 
 @end

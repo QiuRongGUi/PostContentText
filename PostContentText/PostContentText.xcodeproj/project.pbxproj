@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		133B20AA1F12906300E89EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20A91F12906300E89EC5 /* main.m */; };
 		133B20AD1F12906300E89EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20AC1F12906300E89EC5 /* AppDelegate.m */; };
-		133B20B01F12906300E89EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20AF1F12906300E89EC5 /* ViewController.m */; };
 		133B20B31F12906300E89EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133B20B11F12906300E89EC5 /* Main.storyboard */; };
 		133B20B51F12906300E89EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133B20B41F12906300E89EC5 /* Assets.xcassets */; };
 		133B20B81F12906300E89EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133B20B61F12906300E89EC5 /* LaunchScreen.storyboard */; };
 		133B20C31F12906400E89EC5 /* PostContentTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20C21F12906400E89EC5 /* PostContentTextTests.m */; };
 		133B20CE1F12906400E89EC5 /* PostContentTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20CD1F12906400E89EC5 /* PostContentTextUITests.m */; };
+		133B20DD1F1291A800E89EC5 /* PostContentTextView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20DC1F1291A800E89EC5 /* PostContentTextView1.m */; };
+		133B20E01F1291BE00E89EC5 /* UIView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20DF1F1291BE00E89EC5 /* UIView+Tool.m */; };
+		133B20E41F12921800E89EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20E21F12921800E89EC5 /* ViewController.m */; };
+		133B20E51F12921800E89EC5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133B20E31F12921800E89EC5 /* ViewController.xib */; };
+		133B20E81F12922000E89EC5 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20E71F12922000E89EC5 /* PostViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		133B20A91F12906300E89EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		133B20AB1F12906300E89EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		133B20AC1F12906300E89EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		133B20AE1F12906300E89EC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		133B20AF1F12906300E89EC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		133B20B21F12906300E89EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		133B20B41F12906300E89EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133B20B71F12906300E89EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,15 @@
 		133B20C91F12906400E89EC5 /* PostContentTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostContentTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		133B20CD1F12906400E89EC5 /* PostContentTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostContentTextUITests.m; sourceTree = "<group>"; };
 		133B20CF1F12906400E89EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133B20DB1F1291A800E89EC5 /* PostContentTextView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostContentTextView1.h; sourceTree = "<group>"; };
+		133B20DC1F1291A800E89EC5 /* PostContentTextView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostContentTextView1.m; sourceTree = "<group>"; };
+		133B20DE1F1291BE00E89EC5 /* UIView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tool.h"; sourceTree = "<group>"; };
+		133B20DF1F1291BE00E89EC5 /* UIView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tool.m"; sourceTree = "<group>"; };
+		133B20E11F12921800E89EC5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		133B20E21F12921800E89EC5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		133B20E31F12921800E89EC5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		133B20E61F12922000E89EC5 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		133B20E71F12922000E89EC5 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,17 @@
 		133B20A71F12906300E89EC5 /* PostContentText */ = {
 			isa = PBXGroup;
 			children = (
+				133B20DE1F1291BE00E89EC5 /* UIView+Tool.h */,
+				133B20DF1F1291BE00E89EC5 /* UIView+Tool.m */,
 				133B20AB1F12906300E89EC5 /* AppDelegate.h */,
 				133B20AC1F12906300E89EC5 /* AppDelegate.m */,
-				133B20AE1F12906300E89EC5 /* ViewController.h */,
-				133B20AF1F12906300E89EC5 /* ViewController.m */,
+				133B20E11F12921800E89EC5 /* ViewController.h */,
+				133B20E21F12921800E89EC5 /* ViewController.m */,
+				133B20E31F12921800E89EC5 /* ViewController.xib */,
+				133B20E61F12922000E89EC5 /* PostViewController.h */,
+				133B20E71F12922000E89EC5 /* PostViewController.m */,
+				133B20DB1F1291A800E89EC5 /* PostContentTextView1.h */,
+				133B20DC1F1291A800E89EC5 /* PostContentTextView1.m */,
 				133B20B11F12906300E89EC5 /* Main.storyboard */,
 				133B20B41F12906300E89EC5 /* Assets.xcassets */,
 				133B20B61F12906300E89EC5 /* LaunchScreen.storyboard */,
@@ -251,6 +269,7 @@
 			files = (
 				133B20B81F12906300E89EC5 /* LaunchScreen.storyboard in Resources */,
 				133B20B51F12906300E89EC5 /* Assets.xcassets in Resources */,
+				133B20E51F12921800E89EC5 /* ViewController.xib in Resources */,
 				133B20B31F12906300E89EC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133B20B01F12906300E89EC5 /* ViewController.m in Sources */,
+				133B20DD1F1291A800E89EC5 /* PostContentTextView1.m in Sources */,
 				133B20AD1F12906300E89EC5 /* AppDelegate.m in Sources */,
+				133B20E81F12922000E89EC5 /* PostViewController.m in Sources */,
 				133B20AA1F12906300E89EC5 /* main.m in Sources */,
+				133B20E01F1291BE00E89EC5 /* UIView+Tool.m in Sources */,
+				133B20E41F12921800E89EC5 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +536,7 @@
 				133B20D41F12906400E89EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		133B20D51F12906400E89EC5 /* Build configuration list for PBXNativeTarget "PostContentTextTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +545,7 @@
 				133B20D71F12906400E89EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		133B20D81F12906400E89EC5 /* Build configuration list for PBXNativeTarget "PostContentTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +554,7 @@
 				133B20DA1F12906400E89EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
