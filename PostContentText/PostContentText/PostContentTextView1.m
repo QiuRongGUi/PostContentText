@@ -17,10 +17,18 @@
         
         self.backgroundColor = [UIColor whiteColor];
         
+        
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(change:) name:UITextViewTextDidChangeNotification object:self];
     }
     return self;
 }
 
+- (void)change:(NSNotification *)sends{
+    
+    
+    self.placeholderLable.hidden = self.hasText;
+    
+}
 - (UILabel *)placeholderLable{
     if(!_placeholderLable){
         
@@ -69,6 +77,11 @@
     
 }
 
+- (void)dealloc{
+    
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+    
+}
 
 
 @end

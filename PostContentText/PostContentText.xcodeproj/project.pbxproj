@@ -19,6 +19,8 @@
 		133B20E41F12921800E89EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20E21F12921800E89EC5 /* ViewController.m */; };
 		133B20E51F12921800E89EC5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133B20E31F12921800E89EC5 /* ViewController.xib */; };
 		133B20E81F12922000E89EC5 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B20E71F12922000E89EC5 /* PostViewController.m */; };
+		133B28791F13C5D9009740A6 /* PostContentTextView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B28781F13C5D9009740A6 /* PostContentTextView2.m */; };
+		133B287C1F13D00C009740A6 /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B287B1F13D00C009740A6 /* KeyboardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		133B20E31F12921800E89EC5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		133B20E61F12922000E89EC5 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
 		133B20E71F12922000E89EC5 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		133B28771F13C5D9009740A6 /* PostContentTextView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostContentTextView2.h; sourceTree = "<group>"; };
+		133B28781F13C5D9009740A6 /* PostContentTextView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostContentTextView2.m; sourceTree = "<group>"; };
+		133B287A1F13D00C009740A6 /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		133B287B1F13D00C009740A6 /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 				133B20E71F12922000E89EC5 /* PostViewController.m */,
 				133B20DB1F1291A800E89EC5 /* PostContentTextView1.h */,
 				133B20DC1F1291A800E89EC5 /* PostContentTextView1.m */,
+				133B28771F13C5D9009740A6 /* PostContentTextView2.h */,
+				133B28781F13C5D9009740A6 /* PostContentTextView2.m */,
+				133B287A1F13D00C009740A6 /* KeyboardView.h */,
+				133B287B1F13D00C009740A6 /* KeyboardView.m */,
 				133B20B11F12906300E89EC5 /* Main.storyboard */,
 				133B20B41F12906300E89EC5 /* Assets.xcassets */,
 				133B20B61F12906300E89EC5 /* LaunchScreen.storyboard */,
@@ -300,7 +310,9 @@
 				133B20E81F12922000E89EC5 /* PostViewController.m in Sources */,
 				133B20AA1F12906300E89EC5 /* main.m in Sources */,
 				133B20E01F1291BE00E89EC5 /* UIView+Tool.m in Sources */,
+				133B287C1F13D00C009740A6 /* KeyboardView.m in Sources */,
 				133B20E41F12921800E89EC5 /* ViewController.m in Sources */,
+				133B28791F13C5D9009740A6 /* PostContentTextView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
